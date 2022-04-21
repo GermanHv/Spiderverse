@@ -1,4 +1,3 @@
-
 const Superhero =  require("./../app/Superhero")
 
 describe("Unit Test for Superhero", () => {
