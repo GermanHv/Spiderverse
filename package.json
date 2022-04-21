@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/GermanHv/Spiderverse/issues"
   },
-  "homepage": "https://github.com/GermanHv/Spiderverse#readme"
+  "homepage": "https://github.com/GermanHv/Spiderverse#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
