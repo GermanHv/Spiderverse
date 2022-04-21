@@ -4,7 +4,7 @@ describe("Unit Test for Superhero", () => {
     test('Case 1: Get a superhero', () => {
 
         //Usamos código para realizar el funcionamiento que queremos.
-      const iroman = new Superhero("Iron Man", "Tony Stark", "Robert Downey Jr.")
+      const iroman = new Superhero("Spider", "Tony Stark", "Robert Downey Jr.")
 
 
         //Validando el código
@@ -13,4 +13,9 @@ describe("Unit Test for Superhero", () => {
         expect(iroman.heroName).toBe("Tony Stark");
 
     });
+  })
+
+  test ('2) Use the method getInfo()', () => {
+    const tomHolland = new Superhero("Spiderman Marvel", "Tom Holland", "Peter Parker","Hola soy un mensaje")
+    expect (tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel studio")
   })
